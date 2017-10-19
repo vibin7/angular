@@ -5,11 +5,14 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ProductListComponent} from './product-list.component';
-
+import {StarComponent} from './star.component';
+import { ProductFilterPipe } from './product-filter.pipe';
 @NgModule({
   declarations: [
     AppComponent,
-    ProductListComponent
+    ProductListComponent,
+    StarComponent,
+    ProductFilterPipe
   ],
   imports: [
     BrowserModule,
